@@ -22,6 +22,7 @@ fieldset {
 
 #title {
     padding: 15px;
+    margin: 0;
     text-align: center;
     color: white;
     background: #00203FFF;
@@ -31,7 +32,12 @@ fieldset {
     border: 35PX;
     margin: 35px 50px 50px 50px;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
+}
+
+.latest {
+   font-size: 20px;
+   color: lightgray;
 }
 
 .container {
