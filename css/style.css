@@ -4,7 +4,6 @@
 
 body {
       background:  none;
-      color: none;
 }
 
 h1 {
@@ -74,12 +73,12 @@ fieldset {
    font-size: 20px;
 }
 
-.select {
+.news-options {
    color: lightgray;
 }
 
 .receive {
-   text-align: center;
+   text-align: left;
    color: lightgray;
 }
 
@@ -93,17 +92,24 @@ fieldset {
    color: lightgray;
 }
 
+.other-topics {
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+}
+
 .btn {
     width: 100%;
-    max-width: 600px;
-    padding: 20px;
+    max-width: 50%;
+    margin: 40px auto;
+    padding: 0px;
     font-family: 'Merriweather', serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 700;
     color: white;
     border: none;
-    border-radius: 28px;
-    margin: 40px auto;
+    border-radius: 8px;
+    display: block;
     background: #4ebbb5;
     transition: all 0.5s ease;
 }
@@ -114,4 +120,32 @@ footer {
    font-style: italic;
    color: lightgray;
    font-size: 20px;
+}
+
+/* media Queries */
+
+@media (min-width: 768px) {
+   .container {
+     display: flex;
+     flex: 100%;
+     flex-wrap: wrap;
+     justify-content: left
+   }
+
+.information, .contact-info, .newsletter-top, .news-options, .newsletter-bottom, .format, .receive, .other-options, .other-topics, .btn {
+     text-align: center;
+}
+
+.other-topics {
+  display: flex;
+  flex: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  max-width: 40%;
+}
+
+
 }
