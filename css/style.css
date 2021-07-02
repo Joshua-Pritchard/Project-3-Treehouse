@@ -13,6 +13,7 @@ body {
 
 input {
   border: 10px solid white;
+  border-radius: 10px;
 }
 
 .contact-info {
@@ -74,7 +75,7 @@ fieldset {
 }
 
 #signup {
-    
+
     margin: 35px 50px 50px 50px;
     text-align: center;
     font-size: 1.4em;
@@ -130,6 +131,7 @@ fieldset {
   padding: 15px 0 20px 0;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .btn {
