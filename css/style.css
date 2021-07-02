@@ -28,13 +28,15 @@ input::placeholder {
 .contact-info {
   font-size: 1.6em;
   margin-top: 25px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .contact-info .flex-pair {
   display: flex;
   flex-direction: column;
+  margin: 30px;
+  align-self: center;
 }
 
 .flex-pair {
@@ -43,7 +45,7 @@ input::placeholder {
 
 .contact-info label {
   margin: 17px;
-  color: gray;
+  color: white;
   font-size: 1em;
 }
 
@@ -59,7 +61,7 @@ h1 {
 
 h2 {
     font-size: 1.2em;
-    color: black;
+    color: white;
 }
 
 fieldset {
@@ -105,29 +107,31 @@ fieldset {
 }
 
 #name, #email, #telephone, #address, #city, #state, #zip-code {
-  padding: 15px 0 20px 0;
+  padding: 12px 0 20px 0;
   border-radius: 10px;
 }
 
 .latest-news {
    font-size: 1em;
-   color: lightgray;
+   color: white;
 }
 
 .container {
-    padding: 4px 15px 0 15px;
     border: 4px #2d3945;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 400px;
 }
 
 .hr1 {
-   font-weight: bold;
-   margin: 0 35px 0 35px;
+   height: 3px;
+   width: 100%;
+   border: none;
+   background-color: white;
 }
 
 .hr2 {
-  margin: 0 35px 2px 35px;
+  width: 100%;
+  background-color: white;
 }
 
 .line {
@@ -140,7 +144,7 @@ fieldset {
 }
 
 .newsletter-top {
-   color: black;
+   color: white;
    font-size: 1.4em;
    font-weight: bold;
 }
@@ -148,11 +152,11 @@ fieldset {
 .newsletter-bottom {
    padding: 50px 0 10px;
    text-align: left;
-   color: lightgray;
+   color: white;
 }
 
 .format {
-   color: lightgray;
+   color: white;
 }
 
 .other-topics {
@@ -190,8 +194,7 @@ footer {
 @media (min-width: 768px) {
   .contact-info .flex-pair {
     display: flex;
-    flex-direction: column;
-    margin: 30px;
+    flex-direction: row;
   }
 
   .contact-info input {
@@ -202,8 +205,8 @@ footer {
 .contact-info label {
   flex-basis: 25%;
   height: 50px;
-  margin: auto 0;
-  padding-bottom: 20px;
+  margin: auto 15px;
+  padding-bottom: 10px;
 }
 
 #zip-code {
