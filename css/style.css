@@ -11,9 +11,18 @@ body {
   color: #fff;
 }
 
-input {
+main {
+    margin: 0 25px;
+}
+
+input:focus, textarea:focus, select:focus, button:focus  {
   border: 10px solid white;
-  border-radius: 10px;
+}
+
+input::placeholder {
+  text-align: right;
+  font-style: italic;
+  padding-right: 10px;
 }
 
 .contact-info {
@@ -163,6 +172,7 @@ footer {
   .contact-info .flex-pair {
     display: flex;
     flex-direction: column;
+    margin: 30px;
   }
 
   .contact-info input {
@@ -174,6 +184,7 @@ footer {
   flex-basis: 25%;
   height: 50px;
   margin: auto 0;
+  padding-bottom: 20px;
 }
 
 #zip {
