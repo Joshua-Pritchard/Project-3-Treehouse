@@ -46,15 +46,6 @@ input::placeholder {
   color: gray;
   font-size: 1em;
 }
-​
-.contact-info input {
-  height: 40px;
-}
-
-
-#zip {
-  max-width: 50%;
-}
 
 contact-info input {
   flex-grow: 1;
@@ -84,10 +75,33 @@ fieldset {
 }
 
 #signup {
-
     margin: 35px 50px 50px 50px;
     text-align: center;
     font-size: 1.4em;
+}
+
+#HTMLnews {
+  margin: 10px;
+}
+
+#CSSnews {
+  margin: 10px;
+}
+
+#JavascriptNews{
+  margin: 10px;
+}
+
+#zip-code {
+  max-width: 50%;
+}
+
+#HTML {
+  margin: 10px;
+}
+
+#PLAIN-TEXT {
+  margin: 10px;
 }
 
 .latest-news {
@@ -187,7 +201,7 @@ footer {
   padding-bottom: 20px;
 }
 
-#zip {
+#zip-code {
   max-width: 25%;
 }
 
