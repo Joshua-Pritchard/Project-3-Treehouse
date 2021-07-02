@@ -97,16 +97,6 @@ fieldset {
    max-width: 550px;
 }
 
-.newsletter-top {
-   text-align: left;
-   font-weight: bold;
-   font-size: 20px;
-}
-
-.news-options {
-   color: lightgray;
-}
-
 .receive {
    text-align: left;
    color: lightgray;
