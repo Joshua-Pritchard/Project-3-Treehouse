@@ -16,8 +16,10 @@ input {
 }
 
 .contact-info {
+  font-size: 1.6em;
   margin-top: 25px;
-  padding: 50px 50px 20px 50px;
+  color: black;
+  font-weight: bold;
 }
 
 .contact-info .flex-pair {
@@ -25,8 +27,14 @@ input {
   flex-direction: column;
 }
 
+.flex-pair {
+  font-size: .8em;
+}
+
 .contact-info label {
-  margin: 20px;
+  margin: 17px;
+  color: gray;
+  font-size: 1em;
 }
 ​
 .contact-info input {
@@ -50,6 +58,7 @@ h1 {
 
 h2 {
     font-size: 1.2em;
+    color: black;
 }
 
 fieldset {
@@ -65,14 +74,14 @@ fieldset {
 }
 
 #signup {
-    border: 35PX;
+    
     margin: 35px 50px 50px 50px;
     text-align: center;
-    font-size: 17px;
+    font-size: 1.4em;
 }
 
-.latest {
-   font-size: 15px;
+.latest-news {
+   font-size: 1em;
    color: lightgray;
 }
 
@@ -82,14 +91,14 @@ fieldset {
     margin: 0 auto;
     max-width: 550px;
 }
-.container::before {
-   content: " ";
-   border-top: 2px solid #2d3945;
-   display: block;
+
+.hr1 {
+   font-weight: bold;
+   margin: 0 35px 0 35px;
 }
 
-.information {
-   text-align: left;
+.hr2 {
+  margin: 0 35px 2px 35px;
 }
 
 .line {
@@ -99,6 +108,12 @@ fieldset {
 
 .receive {
    padding-left: 15px;
+}
+
+.newsletter-top {
+   color: black;
+   font-size: 1.4em;
+   font-weight: bold;
 }
 
 .newsletter-bottom {
@@ -149,7 +164,6 @@ footer {
   }
 
   .contact-info input {
-  margin: 15px;
   flex-grow: 1;
   flex-basis: 75%;
 }
